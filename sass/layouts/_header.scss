@@ -58,9 +58,19 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover, 
+    &:focus {
+    color: var(--accent-color);
+}
 }
 
-.nav .current::before {
+
+
+.nav .current {
+    color: var(--accent-color);
+
+    &::before {
     content: '';
     position: absolute;
     width: 100%;
@@ -72,14 +82,6 @@
     background: #2196f3;
     border-radius: 2px;
 }
-
-.nav .current {
-    color: var(--accent-color);
-}
-
-.nav a:hover,
-.nav a:focus {
-    color: var(--accent-color);
 }
 
 .contacts {
@@ -99,6 +101,11 @@
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    .contacts a:hover &, 
+    .contacts a:focus & {
+    fill: var(--accent-color);
+}
 }
 
 .contacts a {
@@ -114,14 +121,9 @@
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.contacts a:hover,
-.contacts a:focus {
+    &:hover,
+    &:focus {
     color: var(--accent-color);
 }
-
-.contacts a:hover .icon-color,
-.contacts a:focus .icon-color {
-    fill: var(--accent-color);
 }
