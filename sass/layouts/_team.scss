@@ -1,0 +1,93 @@
+.team {
+    background-color: #f5f4fa;
+    text-align: center;
+}
+
+.team-review {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.team-review .item {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/*team-review .item {
+  flex-basis: calc((100% - 90px) / 4);
+}
+/*.team-review .item + .item {
+  margin-left: 30px;
+}*/
+
+.card-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-names {
+    margin-bottom: 10px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.1875;
+}
+
+.team-review p {
+    color: var(--main-text-color);
+    font-size: 16px;
+    line-height: 1.1875;
+    margin-bottom: 16px;
+}
+
+/*оформление иконок соц.сетей*/
+
+.networks {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.team-networks {
+    width: 44px;
+    height: 44px;
+}
+
+.network-link {
+    width: 100%;
+    height: 100%;
+    /*background-color: blue;*/
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #afb1b8;
+
+    transition-property: background-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.networks-icon {
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.network-link:hover,
+.network-link:focus {
+    background-color: var(--accent-color);
+}
+
+.network-link:hover .networks-icon,
+.network-link:focus .networks-icon {
+    fill: #ffffff;
+}
+
+.team-review .item {
+    flex-basis: calc((100% - 90px) / 4);
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 0px 0px 4px 4px;
+}
