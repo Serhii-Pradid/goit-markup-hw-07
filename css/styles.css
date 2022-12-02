@@ -1,4 +1,4 @@
-body {
+/*body {
   font-family: 'Roboto', sans-serif;
   color: #212121;
   letter-spacing: 0.03em;
@@ -8,9 +8,9 @@ body {
   --main-background-color: #2f303a;
   --main-text-color: #757575;
   --accent-color: #2196f3;
-}
+}*/
 
-.visually-hidden {
+/*.visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -21,7 +21,7 @@ body {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
+}*/
 
 h1,
 h2,
@@ -39,24 +39,23 @@ p {
   padding: 0;
 }
 
-button {
+/*button {
   cursor: pointer;
 }
 
-.container {
+/*.container {
   margin: 0 auto;
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  /*outline: 2px solid tomato;*/
-}
+  }
 
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-}
+}*/
 
-img {
+/*img {
   display: block;
   max-width: 100%;
 }
@@ -69,7 +68,7 @@ img {
 .desk {
   padding-top: 94px;
   padding-bottom: 0;
-}
+}*/
 
 /*header*/
 

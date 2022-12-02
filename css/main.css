@@ -1,1 +1,57 @@
-/*# sourceMappingURL=main.css.map */
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+  letter-spacing: 0.03em;
+}
+
+:root {
+  --main-background-color: #2f303a;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.desk {
+  padding-top: 94px;
+  padding-bottom: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /*outline: 2px solid tomato;*/
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}/*# sourceMappingURL=main.css.map */
