@@ -73,7 +73,12 @@ p {
   padding-bottom: 94px;
 }
 
-.main-header {
+.header {
+  background-color: white;
+  border-bottom: 1px solid #ececec;
+}
+
+.header__container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -82,21 +87,11 @@ p {
           align-items: center;
 }
 
-.header {
-  background-color: white;
-}
-
-.header {
-  border-bottom: 1px solid #ececec;
-}
-
 .web {
   color: var(--accent-color);
 }
 
 .logo-header {
-  /*padding-top: 24px;
-  padding-bottom: 25px;*/
   font-family: "Raleway";
   color: #000000;
   font-weight: 700;
@@ -105,7 +100,7 @@ p {
   text-decoration: none;
 }
 
-.main-nav {
+.header__navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -114,7 +109,7 @@ p {
           align-items: center;
 }
 
-.nav {
+.menu {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -125,7 +120,7 @@ p {
 /*.nav .item + .item {
   margin-left: 50px;
 }*/
-.nav a {
+.menu__link {
   position: relative;
   display: block;
   padding-top: 32px;
@@ -143,14 +138,14 @@ p {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav a:hover, .nav a:focus {
+.menu__link:hover, .menu__link:focus {
   color: var(--accent-color);
 }
 
-.nav .current {
+.current {
   color: var(--accent-color);
 }
-.nav .current::before {
+.current::before {
   content: "";
   position: absolute;
   width: 100%;
@@ -163,7 +158,7 @@ p {
   border-radius: 2px;
 }
 
-.contacts {
+.header__contacts {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -184,15 +179,15 @@ p {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts a:hover .icon-color, .contacts a:focus .icon-color {
+.header__contacts a:hover .icon-color, .header__contacts a:focus .icon-color {
   fill: var(--accent-color);
 }
 
-.contacts a {
+.contacts__link {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  color: #757575;
+  color: var(--main-text-color);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.1428;
@@ -208,7 +203,7 @@ p {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.contacts a:hover, .contacts a:focus {
+.contacts__link:hover, .contacts__link:focus {
   color: var(--accent-color);
 }
 
