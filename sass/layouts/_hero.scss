@@ -227,7 +227,7 @@
     align-items: center;
 }
 
-.policy__check-text span {
+.policy__wrapper {
     width: 16px;
     height: 15px;
     border: 2px solid #212121;
@@ -239,15 +239,15 @@
     fill: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin-left: 12px;
+}
 
-    .policy__modal-check:checked+& {
+.policy__modal-check:checked + .policy__wrapper {
     background-color: var(--accent-color);
     fill: #ffffff;
     border: none;
 }
-.policy__modal-check:focus+& {
+.policy__modal-check:focus + .policy__wrapper {
     border-color: var(--accent-color);
-}
 }
 
 .policy__contract-form {
