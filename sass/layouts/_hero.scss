@@ -241,12 +241,12 @@
     margin-left: 12px;
 }
 
-.policy__modal-check:checked + .policy__wrapper {
+.policy__modal-check:checked + .policy__check-text .policy__wrapper {
     background-color: var(--accent-color);
     fill: #ffffff;
     border: none;
 }
-.policy__modal-check:focus + .policy__wrapper {
+.policy__modal-check:focus + .policy__check-text .policy__wrapper {
     border-color: var(--accent-color);
 }
 
