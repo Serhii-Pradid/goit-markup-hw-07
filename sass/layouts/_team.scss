@@ -3,30 +3,23 @@
     text-align: center;
 }
 
-.team-review {
+.team-list {
     display: flex;
     gap: 30px;
     justify-content: space-between;
 }
 
-.team-review .item {
+.team-list__item {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
-/*team-review .item {
-  flex-basis: calc((100% - 90px) / 4);
-}
-/*.team-review .item + .item {
-  margin-left: 30px;
-}*/
-
-.card-bottom {
+.team-list__card {
     padding-top: 30px;
     padding-bottom: 30px;
 }
 
-.team-names {
+.team-list__name {
     margin-bottom: 10px;
 
     font-weight: 500;
@@ -34,11 +27,18 @@
     line-height: 1.1875;
 }
 
-.team-review p {
+.team-list__text {
     color: var(--main-text-color);
     font-size: 16px;
     line-height: 1.1875;
     margin-bottom: 16px;
+}
+
+.team-list__item {
+    flex-basis: calc((100% - 90px) / 4);
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 0px 0px 4px 4px;
 }
 
 /*оформление иконок соц.сетей*/
@@ -49,12 +49,12 @@
     gap: 10px;
 }
 
-.team-networks {
+.networks__item {
     width: 44px;
     height: 44px;
 }
 
-.network-link {
+.networks__link {
     width: 100%;
     height: 100%;
     /*background-color: blue;*/
@@ -74,20 +74,13 @@
 }
 }
 
-.networks-icon {
+.networks__icon {
     transition-property: fill;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-    .network-link:hover &, 
-    .network-link:focus & {
+    .networks__link:hover &, 
+    .networks__link:focus & {
     fill: #ffffff;
 }
-}
-
-.team-review .item {
-    flex-basis: calc((100% - 90px) / 4);
-    background: #ffffff;
-    border: 1px solid #eeeeee;
-    border-radius: 0px 0px 4px 4px;
 }
