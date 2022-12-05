@@ -32,10 +32,6 @@
     gap: 50px;
 }
 
-/*.nav .item + .item {
-  margin-left: 50px;
-}*/
-
 .menu__link {
     position: relative;
     display: block;
@@ -59,8 +55,6 @@
 }
 }
 
-
-
 .current {
     color: var(--accent-color);
 
@@ -83,10 +77,6 @@
     margin-left: auto;
     gap: 50px;
 }
-
-/*.contacts .item + .item {
-  margin-left: 50px;
-}*/
 
 .icon-color {
     margin-right: 10px;
