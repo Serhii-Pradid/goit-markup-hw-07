@@ -2,21 +2,21 @@
     text-align: center;
 }
 
-.activity-review {
+.kinds {
     display: flex;
     gap: 30px;
     justify-content: space-between;
 }
 
-.activity-review .item {
+.kinds__item {
     flex-basis: calc((100% - 60px) / 3);
 }
 
-.thumb {
+.kinds__thumb {
     position: relative;
 }
 
-.thumb .label {
+.kinds__text {
     position: absolute;
     width: 100%;
     height: 70px;
