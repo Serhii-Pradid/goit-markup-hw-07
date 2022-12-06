@@ -1,4 +1,4 @@
-.portfolio-buttons {
+.buttons {
     display: flex;
     gap: 8px;
     justify-content: center;
@@ -6,7 +6,7 @@
     margin-bottom: 50px;
 }
 
-.portfolio-buttons button {
+.buttons__item {
     min-width: 73px;
     font-family: 'Roboto';
     font-weight: 500;
@@ -39,7 +39,7 @@
 }
 }
 
-.portfolio-buttons .main {
+.buttons__item .main {
     padding-top: 6px;
     padding-bottom: 6px;
     padding-right: 25px;
