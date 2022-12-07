@@ -8,10 +8,6 @@
     align-items: center;
 }
 
-.web {
-    color: var(--accent-color);
-}
-
 .logo-header {
     font-family: 'Raleway';
     color: #000000;
@@ -19,6 +15,10 @@
     font-size: 26px;
     line-height: 1.1923;
     text-decoration: none;
+}
+
+.web {
+    color: var(--accent-color);
 }
 
 .header__navigation {
